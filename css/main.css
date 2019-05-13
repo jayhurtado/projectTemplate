@@ -118,6 +118,18 @@ body {
     align-text: center;
 }
 
+#about {
+   font-size: 50px;
+}
+
+#skills {
+    font-size: 50px;
+}
+
+#projects {
+    font-size: 50px;
+}
+
 #column1 {
     background-color: #f1f1f1;
     width: 318px;
