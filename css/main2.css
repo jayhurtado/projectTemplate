@@ -1,0 +1,161 @@
+/*element selector*/
+/*whole thing is a rule set*/
+body {
+    /*property and value*/
+    background-color: #008348;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+/*id selector*/
+#box1 {
+    background-color: green;
+    float: left;
+}
+#box2 {
+    background-color: red;
+    float: left;
+}
+#box3 {
+    background-color: blue;
+    clear: both;
+    float: left;
+}
+#box4 {
+    background-color: yellow;
+    float: left;
+}
+
+/*class selector*/
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.fullborder {
+    border: black solid thin;
+}
+
+#header {
+    background-color: white;
+    height: 96px;
+}
+
+#wrapper {
+    width: 960px;
+    /*height: 1553px;*/
+    height: 1100px;
+    /*to center it since you can't just center divs*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#content {
+    /*width: 589px;*/
+    width: 708px; /*because of the padding*/
+    float: left;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 27px;
+    background-color: #bb9753;
+    /*height: 1203px;*/
+    height: 852px;
+}
+
+#content h1 {
+    font-size: 42px;
+    line-height: 65px;
+}
+#content h2 {
+    font-size:33px;
+    line-height: 52px;
+}
+#content h3 {
+    font-size: 26px;
+    line-height: 41px;
+}
+#content h4 {
+    font-size: 20px;
+    line-height: 33px;
+}
+#content h5 {
+    font-size: 16px;
+    line-height: 27px;
+}
+#content h6 {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+#sidebar {
+    width: 200px;
+    float: left;
+    background-color: #bb9753;
+    /*height: 1203px;*/
+    height: 852px;
+}
+
+#footer {
+    clear: both;
+    background-color: black;
+    height: 148px;
+}
+
+#headerLeft {
+
+    /*float: left;*/
+}
+
+#headerRight {
+    float: right;
+    margin: 5px;
+    color: #0000EE;
+}
+
+#headerRight2 {
+    float: right;
+    margin: 5px;
+    color: #0000EE;
+}
+
+#headerCenter {
+    font-size: 250%;
+}
+/*combining selectors*/
+.bodyImages {
+    width: 300px;
+}
+
+.headerImage {
+    width: 125px;
+    margin: 10px;
+}
+
+#playoffImage {
+    width: 197px;
+    height: 200px;
+    margin: 85px 2px 0px 2px;
+}
+
+table {
+    /*align-self: center;*/
+    color: white;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+td {
+    padding-top: 2px;
+}
+
+ul {
+    text-align: center;
+}
+li {
+}
